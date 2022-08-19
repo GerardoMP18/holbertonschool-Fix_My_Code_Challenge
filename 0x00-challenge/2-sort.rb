@@ -21,11 +21,6 @@ ARGV.each do |arg|
             i += 1
         else
             a = i - 1
-            puts "SOY A"
-            puts a
-            b = i_arg
-            puts "SOY B"
-            puts b
             #result.insert(i - 1, i_arg)
             #Change a sort ascending
             result.insert(i, i_arg)
