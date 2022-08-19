@@ -20,7 +20,6 @@ ARGV.each do |arg|
         if result[i] < i_arg
             i += 1
         else
-            a = i - 1
             #result.insert(i - 1, i_arg)
             #Change a sort ascending
             result.insert(i, i_arg)
